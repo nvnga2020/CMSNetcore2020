@@ -10,4 +10,12 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CMSNetcore.Data.EF\CMSNetcore.Data.EF.csproj" />
+    <ProjectReference Include="..\CMSNetcore.Data\CMSNetcore.Data.csproj" />
+    <ProjectReference Include="..\CMSNetcore.Infrastructure\CMSNetcore.Infrastructure.csproj" />
+    <ProjectReference Include="..\CMSNetcore.Service\CMSNetcore.Service.csproj" />
+    <ProjectReference Include="..\CMSNetcore.Utilities\CMSNetcore.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
